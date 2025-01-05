@@ -30,11 +30,12 @@ In Github, client & server reside under the same directory, so just clone the pa
 2. Install dependencies:
    ```bash
    npm install
+3. Copy all env's from env.example, create .env & paste all here
 3. Start the backend server:
     ```bash
    npm run dev
 
-No need to setup any envs, already set default db, mail service & firebase storage. If you want to change service, you can update mongo db, mail & storage service.
+Make sure to copy all envs from env.example to .env
 
 ### Frontend (FE)
 
