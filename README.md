@@ -31,7 +31,8 @@ In Github, client & server reside under the same directory, so just clone the pa
    ```bash
    npm install
 3. Copy all env's from env.example, create .env & paste all here
-3. Start the backend server:
+4. Configure firebase json file, you need to download your firebase json file & paste into server/utils. This step is required, otherwise, files will not be uploaded
+5. Start the backend server:
     ```bash
    npm run dev
 
